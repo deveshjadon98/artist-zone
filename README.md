@@ -1,6 +1,7 @@
 # Artist Zone
 Isomorphic Artist Zone app with debounced search implemented using Redux Saga.
-*[App](https://build-eqdudjofzd.now.sh)
+
+Find the deployed app [here](https://build-eqdudjofzd.now.sh)
 
 ### Prerequisites
 
