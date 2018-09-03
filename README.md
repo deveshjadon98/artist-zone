@@ -43,7 +43,7 @@ localhost:3000
 ### Unit Testing
 Run the following command to run Unit Test cases.
 ```
-npm run test:watch
+npm run test
 ```
 
 ## Built With
