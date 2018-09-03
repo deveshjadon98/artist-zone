@@ -3,6 +3,8 @@ Isomorphic Artist Zone app with debounced search implemented using Redux Saga.
 
 Find the deployed app [here](https://build-eqdudjofzd.now.sh)
 
+For persisting last searched artist I have used [Localforage](https://localforage.github.io/localForage/) to interact with IndexedDB.
+
 ### Prerequisites
 
 * node v8.4.0
@@ -49,6 +51,7 @@ npm run test:watch
 * [React](https://reactjs.org/) - JS Library
 * [Redux](https://redux.js.org/) - State Container
 * [Redux Sagas](https://redux-saga.js.org/) - Middleware
+* [Localforage](https://localforage.github.io/localForage/) - Library to interact with IndexedDB.
 * [Axios](https://github.com/axios/axios) - Promise based HTTP client
 * [Jest](https://jestjs.io/) - Unit Testing Framework
 * [Enzyme](http://airbnb.io/enzyme/) - Assertion library
