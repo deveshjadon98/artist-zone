@@ -5,27 +5,31 @@ import './SearchResult.css';
 import AboutArtist from './../AboutArtist/AboutArtist';
 import EventList from './../EventList/EventList';
 
-class SearchResult extends Component {
+export class SearchResult extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-      console.log(this.props);
+    console.log(this.props);
     return (
-        <section className="artist-search-result" data-test="artist-search-result">
-            <AboutArtist artist={this.props.artist}/>
-           <div className="artist-events-container" data-test="artist-events-container">
-            <EventList events={this.props.events}/>
-           </div>
-        </section>
+      <section
+        className="artist-search-result"
+        data-test="artist-search-result">
+        <AboutArtist artist={this.props.artist} />
+        <div
+          className="artist-events-container"
+          data-test="artist-events-container">
+          <EventList events={this.props.events} />
+        </div>
+      </section>
     );
   }
 }
 
 SearchResult.propTypes = {
-    artist: PropTypes.object,
-    events: PropTypes.array
+  artist: PropTypes.object,
+  events: PropTypes.array,
 };
 
 export default withRouter(SearchResult);

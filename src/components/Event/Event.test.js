@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { findByTestAttr, checkProps } from '../../utils/testUtils';
-import Event from './Event';
+import { Event } from './Event';
 
 const defaultProps = {};
 
@@ -27,31 +27,33 @@ const setup = (props = {}) => {
 describe('Event', () => {
   let wrapper;
   const event = {
-        offers:[
-            {
-                type:"Tickets",
-                url:"https:\/\/www.bandsintown.com\/t\/1011359000?app_id=app_id&came_from=267",
-                status:"available"
-            }
-        ],
-        venue:{
-            name:"Kauz","country":"Switzerland",
-            region:"",
-            city:"Zrich",
-            latitude:"47.381527",
-            longitude:"8.5370931"
-        },
-        datetime:"2018-09-07T21:00:00",
-        on_sale_datetime:"",
-        description:"",
-        lineup:["Ma"],
-        id:"1011359000",
-        artist_id:"139493",
-        url:"https:\/\/www.bandsintown.com\/e\/1011359000?app_id=app_id&came_from=267"
-    }
+    offers: [
+      {
+        type: 'Tickets',
+        url:
+          'https://www.bandsintown.com/t/1011359000?app_id=app_id&came_from=267',
+        status: 'available',
+      },
+    ],
+    venue: {
+      name: 'Kauz',
+      country: 'Switzerland',
+      region: '',
+      city: 'Zrich',
+      latitude: '47.381527',
+      longitude: '8.5370931',
+    },
+    datetime: '2018-09-07T21:00:00',
+    on_sale_datetime: '',
+    description: '',
+    lineup: ['Ma'],
+    id: '1011359000',
+    artist_id: '139493',
+    url: 'https://www.bandsintown.com/e/1011359000?app_id=app_id&came_from=267',
+  };
 
   beforeEach(() => {
-    wrapper = setup({event: event});
+    wrapper = setup({ event });
   });
 
   test('renders artist-event component without crashing', () => {
