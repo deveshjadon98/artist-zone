@@ -1,0 +1,73 @@
+/*Header scss*/
+.app-header {
+  width: 100%;
+  top: 0px;
+  transition: transform .2s;
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  position: relative;
+  z-index: 101; }
+  .app-header .links-container {
+    position: relative;
+    z-index: 2;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    min-height: 60px;
+    box-sizing: border-box; }
+    .app-header .links-container .logo-wrapper {
+      float: left; }
+      .app-header .links-container .logo-wrapper .logo-link {
+        display: inline-block;
+        position: relative;
+        color: #343434;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 60px;
+        padding: 0px !important;
+        outline: none;
+        text-decoration: none;
+        height: 0;
+        float: left;
+        margin-right: 15px;
+        margin-left: 10px;
+        margin-top: 15px; }
+        .app-header .links-container .logo-wrapper .logo-link .app-logo {
+          height: 70px;
+          width: 80px;
+          border-style: none;
+          cursor: pointer; }
+    .app-header .links-container .artists-container {
+      float: right; }
+      .app-header .links-container .artists-container .artists-link {
+        display: inline-block;
+        position: relative;
+        color: #343434;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 60px;
+        padding: 0px 15px;
+        outline: none; }
+        .app-header .links-container .artists-container .artists-link .artists-tag {
+          cursor: pointer;
+          border: 0;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-weight: 400;
+          font-family: 'Nunito', sans-serif;
+          letter-spacing: -0.3px;
+          min-width: 120px;
+          text-decoration: none;
+          text-align: center;
+          border-radius: 3px;
+          background-color: transparent;
+          color: #933EC5;
+          font-size: 14px;
+          line-height: 16px;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          display: inline-block; }
+
+a {
+  background-color: transparent; }

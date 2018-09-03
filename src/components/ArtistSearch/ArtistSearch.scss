@@ -1,0 +1,17 @@
+@import "../../assets/styles/colors.scss";
+
+.artist-search-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .artist-search-query-container{
+        padding: 2% 20%;
+    }
+    .artist-search-result-container{
+        .artist-search-result{
+            display: flex;
+            flex-direction: row;
+            padding: 0 10%;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.artist-event{
+    margin-bottom: 1%;
+    display: inline-table;
+    height: 75px;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    .event-date{
+        width: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        .event-month, .event-day{
+            text-align: center;
+            color: #259998;
+            display: block;
+            font-weight: 500;
+        }
+        .event-month{
+            font-size: 11px;
+        }
+        .event-day{
+            font-size: 25px;
+        }
+    }
+    .event-location{
+        vertical-align: middle;
+        padding-left: 15px;
+        line-height: 1.4;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        .event-city{
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: -.3px;
+            color: #2d2d2d;
+            display: inline-block;
+            width: 50%;
+            span{
+                display: inline-block;
+            }
+        }
+        .event-venue{
+            width: 50%;
+            text-align: right;
+            display: block;
+            span{
+                font-size: 16px;
+                letter-spacing: -.3px;
+                color: #2d2d2d;
+            }
+        }
+    }
+}   

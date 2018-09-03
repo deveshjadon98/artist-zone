@@ -1,0 +1,45 @@
+.artist-event {
+  margin-bottom: 1%;
+  display: inline-table;
+  height: 75px;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box; }
+  .artist-event .event-date {
+    width: 30px;
+    display: table-cell;
+    vertical-align: middle; }
+    .artist-event .event-date .event-month, .artist-event .event-date .event-day {
+      text-align: center;
+      color: #259998;
+      display: block;
+      font-weight: 500; }
+    .artist-event .event-date .event-month {
+      font-size: 11px; }
+    .artist-event .event-date .event-day {
+      font-size: 25px; }
+  .artist-event .event-location {
+    vertical-align: middle;
+    padding-left: 15px;
+    line-height: 1.4;
+    height: 75px;
+    display: flex;
+    align-items: center; }
+    .artist-event .event-location .event-city {
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: -.3px;
+      color: #2d2d2d;
+      display: inline-block;
+      width: 50%; }
+      .artist-event .event-location .event-city span {
+        display: inline-block; }
+    .artist-event .event-location .event-venue {
+      width: 50%;
+      text-align: right;
+      display: block; }
+      .artist-event .event-location .event-venue span {
+        font-size: 16px;
+        letter-spacing: -.3px;
+        color: #2d2d2d; }

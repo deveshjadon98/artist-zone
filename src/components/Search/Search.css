@@ -1,0 +1,37 @@
+.search {
+  border: 2px solid #933EC5;
+  overflow: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+.search input[type="text"] {
+  border: 0px;
+  width: 88%;
+  padding: 1%; }
+
+.search input[type="text"]:focus {
+  outline: 0; }
+
+.search input[type="submit"] {
+  border: 0px;
+  background: none;
+  background-color: #933EC5;
+  color: #fff;
+  width: 10%;
+  padding: 10px 0;
+  border-radius-top-right: 5px;
+  -moz-border-radius-top-right: 5px;
+  -webkit-border-radius-top-right: 5px;
+  border-radius-bottom-right: 5px;
+  -moz-border-radius-bottom-right: 5px;
+  -webkit-border-radius-bottom-right: 5px;
+  cursor: pointer; }
+
+/* ===========================
+   ====== Medua Query for Search Box ====== 
+   =========================== */
+@media only screen and (min-width: 150px) and (max-width: 780px) {
+  .search {
+    width: 95%;
+    margin: 0 auto; } }
